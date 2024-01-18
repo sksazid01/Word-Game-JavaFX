@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1267.0" stylesheets="@st.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.wordgame.scoreController">
+   <children>
+      <Label fx:id="scoreLabel" alignment="CENTER" layoutX="365.0" layoutY="89.0" prefHeight="342.0" prefWidth="533.0" style="-fx-text-fill: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #cd2a5fff 0.0%, #763c89ff 100.0%);" textFill="#8306ac">
+         <font>
+            <Font size="200.0" />
+         </font>
+      </Label>
+      <Button id="startingButton" layoutX="545.0" layoutY="451.0" mnemonicParsing="false" onAction="#reset" prefHeight="57.0" prefWidth="175.0" stylesheets="@st.css" text="Reset Score" textFill="#120000">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Button>
+      <Button id="exitButton" layoutX="55.0" layoutY="621.0" mnemonicParsing="false" onAction="#back" prefHeight="55.0" prefWidth="149.0" stylesheets="@st.css" text="Back">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

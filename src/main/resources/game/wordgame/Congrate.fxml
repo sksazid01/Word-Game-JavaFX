@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="myCongoPane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="720.0" prefWidth="1267.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.wordgame.congrate">
+    <children>
+      <ImageView id="#record-sales" fx:id="anpn" fitHeight="719.0" fitWidth="1265.0" layoutX="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@stop%20-%20Copy.jpg" />
+         </image></ImageView>
+      <Button id="startingButton" fx:id="cong" layoutX="431.0" layoutY="194.0" mnemonicParsing="false" prefHeight="321.0" prefWidth="488.0" styleClass="record-sales" stylesheets="@st.css" />
+      <Button id="exitButton" fx:id="leaveButton" layoutX="395.0" layoutY="567.0" mnemonicParsing="false" onAction="#leave" prefHeight="43.0" prefWidth="208.0" stylesheets="@st.css" text="Leave" />
+      <Button id="normalButton" fx:id="startAgain" layoutX="738.0" layoutY="566.0" mnemonicParsing="false" onAction="#Start" prefHeight="43.0" prefWidth="208.0" stylesheets="@st.css" text="Go To Home Window" />
+    </children>
+</AnchorPane>

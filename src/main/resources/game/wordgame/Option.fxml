@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1267.0" stylesheets="@st.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.wordgame.optionController">
+   <children>
+      <Button id="startingButton" layoutX="551.0" layoutY="318.0" mnemonicParsing="false" onAction="#offMusic" prefHeight="15.0" prefWidth="159.0" stylesheets="@st.css" text="Turn Off Music" textFill="#120000">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Button>
+      <Button id="exitButton" layoutX="55.0" layoutY="621.0" mnemonicParsing="false" onAction="#back" prefHeight="55.0" prefWidth="149.0" stylesheets="@st.css" text="Back">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Button>
+      <Button id="startingButton" layoutX="553.0" layoutY="247.0" mnemonicParsing="false" onAction="#onMusic" prefHeight="15.0" prefWidth="159.0" stylesheets="@st.css" text="Turn On Music" textFill="#120000">
+         <font>
+            <Font name="System Bold Italic" size="37.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

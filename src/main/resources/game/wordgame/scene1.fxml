@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="myPane" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="720.0" prefWidth="1267.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.wordgame.scene1Controller">
+    <children>
+      <ImageView id="#record-sales" fitHeight="719.0" fitWidth="1265.0" layoutX="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@stop%20-%20Copy.jpg" />
+         </image>
+      </ImageView>
+        <Button id="exitButton" fx:id="myExit" contentDisplay="CENTER" layoutX="592.0" layoutY="478.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="133.0" stylesheets="@st.css" text="EXIT" textAlignment="CENTER" />
+      <Button id="startingButton" fx:id="myScore" layoutX="593.0" layoutY="340.0" mnemonicParsing="false" onAction="#myScore" prefHeight="25.0" prefWidth="131.0" styleClass="record-sales" stylesheets="@st.css" text="Highest Score" />
+      <Button id="startingButton" fx:id="myOptions" layoutX="593.0" layoutY="398.0" mnemonicParsing="false" onAction="#myOption" prefHeight="25.0" prefWidth="131.0" stylesheets="@st.css" text="Options" />
+      <Button id="startingButton" fx:id="myStart" layoutX="593.0" layoutY="284.0" mnemonicParsing="false" onAction="#myStartF" prefHeight="25.0" prefWidth="131.0" stylesheets="@st.css" text="Game Start" />
+    </children>
+</AnchorPane>

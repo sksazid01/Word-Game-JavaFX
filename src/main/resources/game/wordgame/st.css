@@ -1,0 +1,160 @@
+.root{
+    -fx-background-color: green;
+     -fx-background-color:
+      linear-gradient(from 23.200000000000003% 0.0% to 100.0% 81.89999999999999%, #fbc7d4ff 0.0%, #abe9a5ff 100.0%);
+}
+
+#playerName{
+    -fx-background-color: linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #2f8df3ff 0.0%, #00eeffff 100.0%);
+}
+.text-field{
+    -fx-background-color: red;
+    }
+/*
+linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #fd6d7eff 0.0%, #bee8fdff 100.0%)
+*/
+
+.button{
+    -fx-cursor: hand;
+}
+.label{
+    -fx-text-fill:red;
+    -fx-effect: dropshadow(gaussian, rgba(0.22,1,0,1.0), 2, 1, -2, 1);
+    -fx-background-color: transparent;
+}
+
+/*
+.label{
+    -fx-fond-family:"Lucid Console";
+    -fx-text-fill:rgb(153,102,153);
+    -fx-alignment:center;
+    -fx-font-size:10px;
+}
+
+
+#l1{
+    -fx-alignment:center;
+    -fx-background-color:rgb(103, 160, 10);
+}
+
+
+.button {
+    -fx-cursor: hand;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-text-fill: white;
+    -fx-background-color: #4CAF50;
+    -fx-border-color: transparent;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.90), 0, 9, 0);
+}
+
+.button:hover {
+    -fx-background-color: #3e8e41;
+}
+
+.button:pressed {
+    -fx-background-color: #3e8e41;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 0, 5, 0);
+    -fx-translate-y: 4px;
+}
+*/
+
+
+
+#startingButton {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 10;
+    -fx-background-color:
+
+    linear-gradient(from 30% 30% to 70% 70%, #ffecdc,#fcf4e7),
+     #9d4024,
+     #d86e3a,
+     radial-gradient(center 50% 50%, radius 100%, #ffecdc, #c54e2c);
+
+    -fx-effect: dropshadow( gaussian , rgba(0,0,100,1) , 7,0,-4,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#startingButton:hover {
+    -fx-background-color:
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #ffff99 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #ffff99);
+}
+#startingButton:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+     -fx-background-color:
+          linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #fcdf57ff 0.0%,#f8c52c 30%, #fea350ff)
+}
+
+
+
+
+#exitButton {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 10;
+    -fx-background-color:
+     linear-gradient(from 0.0% 0.0% to 100.0% 0.0%,#4e27cc ,#1595d9 50%,#2a0a96),
+     #9d4024,
+     #d86e3a,
+     linear-gradient(from 0.0% 0.0% to 100.0% 0.0%,#6e1717 ,#d91e1e 60%,#801a1a);
+
+    -fx-effect: dropshadow( gaussian , rgba(0,0,100,1) , 7,0,-4,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#exitButton:hover {
+    -fx-background-color:
+    linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #8000fdff 0.0%,#9a72ce, #e103faff 100.0%),
+        #6e15ce,
+        #400686,
+        radial-gradient(center 50% 50%, radius 70%, #cc0033, #ff6666);
+}
+#exitButton:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+     -fx-background-color:
+         radial-gradient(center 50% 50%,radius 60%, #cd2a5fff, #763c89ff )
+}
+
+
+
+
+
+
+/*linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #8000fdff 0.0%, #e103faff 100.0%)*/
+
+#normalButton {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 10;
+    -fx-background-color:
+     linear-gradient(from 0.0% 0.0% to 100.0% 0.0%,#4e27cc ,#1595d9 50%,#2a0a96),
+     #9d4024,
+     #d86e3a,
+     linear-gradient(from 0.0% 0.0% to 100.0% 0.0%,#8000fdff ,#02c2fd 60%,#e103faff);
+
+    -fx-effect: dropshadow( gaussian , rgba(0,0,100,1) , 7,0,-4,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#normalButton:hover {
+    -fx-background-color:
+    linear-gradient(from 0.0% 0.0% to 100.0% 0.0%, #17a7cc 0.0%,#9a72ce, #e103faff 100.0%),
+        #6e15ce,
+        #400686,
+        radial-gradient(center 50% 50%, radius 40%, #3897d7, #18ccbf);
+}
+#normalButton:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+     -fx-background-color:
+        radial-gradient(focus-angle 0.0deg, focus-distance 100.0% , center 46.6542750929368% 48.41269720168341%, radius 84.88372093023256%, #502e87ff 0.0%, #502e87ff 0.662%, #fde3ffff 44.583%, #bfd78eff 100.0%)
+}
+
